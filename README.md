@@ -38,13 +38,13 @@ Guiding philosophy:
 
 ### Core
 
-- [ ] Vector addition is commutative
-- [ ] Vector addition is associative
-- [ ] Zero vector is additive identity
-- [ ] Additive inverse exists
-- [ ] Scalar distributivity
-- [ ] `1 • v = v`
-- [ ] `(ab) • v = a • (b • v)`
+- [X] Vector addition is commutative
+- [X] Vector addition is associative
+- [X] Zero vector is additive identity
+- [X] Additive inverse exists
+- [X] Scalar distributivity
+- [X] `1 • v = v`
+- [X] `(ab) • v = a • (b • v)`
 
 ### Mathlib lemmas
 
@@ -64,18 +64,18 @@ mul_smul
 
 ### Core
 
-- [ ] Norm is nonnegative
-- [ ] Norm of zero
-- [ ] Norm scales correctly
-- [ ] Triangle inequality
+- [X] Norm is nonnegative
+- [X] Norm of zero
+- [X] Norm scales correctly
+- [X] Triangle inequality
 
 ### Advanced
 
-- [ ] Reverse triangle inequality
+- [X] Reverse triangle inequality
 
 ### Challenge
 
-- [ ] Cauchy-Schwarz inequality
+- [ ] Cauchy-Schwarz inequality (Probably after 1.3)
 
 ### Mathlib lemmas
 
@@ -84,7 +84,7 @@ norm_nonneg
 norm_eq_zero
 norm_smul
 norm_add_le
-abs_inner_le_norm
+abs_norm_sub_norm_le
 ```
 
 ## 1.3 Dot Product
